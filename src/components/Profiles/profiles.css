@@ -1,0 +1,31 @@
+.profiles {
+	background: #ededed;
+}
+
+.profile-card {
+	background-color: #ffffff;
+	max-width: 450px;
+}
+
+@media screen and (min-width: 1024px) {
+	.profile-card:last-child {
+		margin-left: 1rem;
+	}
+}
+
+.profile-card_title {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.profile-card_desc {
+}
+
+.profile-card_link {
+	color: #ee662e;
+}
+
+.profiles_vector {
+	width: 65%;
+	bottom: -20%;
+}

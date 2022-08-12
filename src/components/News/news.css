@@ -1,0 +1,34 @@
+.news-card {
+	max-width: 335px;
+	flex: 1 0 31%;
+}
+
+.news-card:not(:last-child) {
+	margin-right: 1rem;
+}
+
+@media onlyscreen and (max-width: 1024px) {
+	.news-card:not(:last-child) {
+		margin-right: 0;
+	}
+}
+
+.news_header_link {
+	color: #ee662e;
+}
+
+.news-card_data_info {
+	font-size: 15px;
+	color: #000000b2;
+	margin: 1.25rem 0;
+}
+
+.news-card_data_title {
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 1.25rem;
+}
+
+.news-card_link {
+	color: #ee662e;
+}

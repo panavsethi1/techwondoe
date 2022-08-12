@@ -1,0 +1,23 @@
+.team {
+	background-color: #fae1d54d;
+}
+
+.team_photo {
+	flex: 1 0 48%;
+}
+.gutter {
+	flex: 1 0 4%;
+}
+.team_text {
+	flex: 1 0 48%;
+}
+
+.team_text_header {
+	font-size: 15px;
+	font-weight: 600;
+	color: #e6692e;
+}
+
+.team_text_desc {
+	font-size: 16px;
+}

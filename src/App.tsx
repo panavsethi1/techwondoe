@@ -1,13 +1,25 @@
 import React from 'react';
 import './App.css';
+import About from './components/About/About';
+import Hero from './components/Hero/Hero';
+import Team from './components/Team/Team';
+import News from './components/News/News';
+import Profiles from './components/Profiles/Profiles';
+import CTA from './components/CTA/CTA';
+import Footer from './components/Footer/Footer';
+import Copyright from './components/Copyright/Copyright';
 
 function App() {
 	return (
-		<div className='mx-5 bg-gray-200 rounded shadow border p-8 m-10'>
-			<p className='text-3xl text-gray-700 font-bold mb-5'>Welcome!</p>
-			<p className='text-gray-500 text-lg'>
-				React and Tailwind CSS in action
-			</p>
+		<div>
+			<Hero />
+			<About />
+			<Team />
+			<News />
+			<Profiles />
+			<CTA />
+			<Footer />
+			<Copyright />
 		</div>
 	);
 }
