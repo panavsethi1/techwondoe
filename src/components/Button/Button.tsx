@@ -1,7 +1,7 @@
 import React from 'react';
 import './button.css';
 
-function Button(props) {
+function Button(props: any) {
 	return (
 		<a
 			href='/'

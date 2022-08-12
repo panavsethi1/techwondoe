@@ -1,7 +1,7 @@
-import { profile } from 'console';
+/* eslint-disable react/prop-types */
 import React from 'react';
 
-function ProfileCard(props) {
+function ProfileCard(props: any) {
 	return (
 		<div className='profile-card p-10 z-10 flex flex-col justify-between mb-4 lg:mb-0'>
 			<div>

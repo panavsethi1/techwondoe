@@ -4,7 +4,7 @@ import linkedin from '../../assets/footer/linkedin.png';
 import insta from '../../assets/footer/instagram.png';
 
 function Footer() {
-	let data = {
+	const data = {
 		links: [
 			'Home',
 			'About',
