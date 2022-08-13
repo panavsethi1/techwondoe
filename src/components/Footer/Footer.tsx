@@ -18,7 +18,7 @@ function Footer() {
 	};
 
 	return (
-		<div className='footer flex lg:flex-row flex-col-reverse p-6 lg:p-20'>
+		<div className='footer flex lg:flex-row flex-col-reverse px-10 py-16 lg:p-20'>
 			<div className='footer_logos flex justify-end lg:justify-center mt-4 lg:mt-0'>
 				<div className='footer_logo_items flex lg:mx-0 xl:mx-36 items-end h-full'>
 					<img className='mr-2 mb-2' src={facebook} alt='' />
